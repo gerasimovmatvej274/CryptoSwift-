@@ -1,0 +1,16 @@
+            .tryMap { value in
+                if value == 2 {
+                    throw URLError(.badServerResponse)
+                }
+                return value
+            }
+//            .filter { ($0 > 2) && ($0 < 5) }
+            
+          //  .replaceError(with: 1)
+          //  .removeDuplicates()
+            
+          //  .scan(0, { $0 + $1 })
+          //  .scan(0, +)
+           // .reduce(0, +)
+            //.allSatisfy({ $0 < 200 })
+            //.debounce(for: 1, scheduler: DispatchQueue.main)
